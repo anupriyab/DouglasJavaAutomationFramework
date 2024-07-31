@@ -71,8 +71,6 @@ public class searchTest extends BaseTestclass{
 		parfumPage.selectProdukart(produktart);
 		parfumPage.selectMarke(marke);
 		Thread.sleep(4000);
-		//int count=driver.findElements(By.xpath("//div[@class='selected-facets']//button[@class='selected-facets__value']")).size();
-		//Assert.assertEquals(count>=4, "Not all the fliters are selected");
 		parfumPage.restoreFliter();
 		Thread.sleep(2000);
 		
