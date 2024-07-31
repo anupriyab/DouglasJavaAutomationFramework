@@ -1,0 +1,9 @@
+<configuration>
+    <reportName>Automation Report</reportName>
+    <reportHeadline>Selenium Test Automation</reportHeadline>
+    <theme>standard</theme>
+    <encoding>utf-8</encoding>
+    <protocol>http</protocol>
+    <documentTitle>Test Report</documentTitle>
+    <filePath>target/ExtentReport.html</filePath>
+</configuration>

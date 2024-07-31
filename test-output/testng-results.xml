@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T18:07:45 IST" name="Suite" finished-at="2024-07-31T18:10:23 IST" duration-ms="158400">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T18:07:45 IST" name="ChromeTests" finished-at="2024-07-31T18:10:23 IST" duration-ms="158400">
+      <class name="com.douglas.testcases.searchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:07:45 IST" name="setUp" finished-at="2024-07-31T18:07:47 IST" duration-ms="1929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Step01_NavigetessToURL()[pri:1, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:07:47 IST" name="Step01_NavigetessToURL" description="Precondition:  Open browser,Navigate to the Douglas URL" finished-at="2024-07-31T18:07:53 IST" duration-ms="6700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step01_NavigetessToURL -->
+        <test-method signature="Step02_HandlingCookies()[pri:2, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:07:53 IST" name="Step02_HandlingCookies" description="Denying all the cookies" finished-at="2024-07-31T18:07:57 IST" duration-ms="3199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step02_HandlingCookies -->
+        <test-method signature="Step03_ClikonParfum()[pri:3, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:07:57 IST" name="Step03_ClikonParfum" description="Navigating to Parfum page" finished-at="2024-07-31T18:08:03 IST" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step03_ClikonParfum -->
+        <test-method signature="Step03_viewHighlight()[pri:4, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:08:03 IST" name="Step03_viewHighlight" description="moving to highlight fliter" finished-at="2024-07-31T18:08:06 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step03_viewHighlight -->
+        <test-method signature="testWithExcelData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:08:06 IST" name="testWithExcelData" description="selecting the fliters based on excel data" data-provider="excelData" finished-at="2024-07-31T18:08:54 IST" duration-ms="48378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Limitiert]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chloé]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eau de Parfum]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Geburtstag]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Weiblich]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithExcelData -->
+        <test-method signature="testWithExcelData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:08:54 IST" name="testWithExcelData" description="selecting the fliters based on excel data" data-provider="excelData" finished-at="2024-07-31T18:09:43 IST" duration-ms="48494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aether]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eau de Parfum]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Geburtstag]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Unisex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithExcelData -->
+        <test-method signature="testWithExcelData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:09:43 IST" name="testWithExcelData" description="selecting the fliters based on excel data" data-provider="excelData" finished-at="2024-07-31T18:10:23 IST" duration-ms="39944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NEU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexandre.J]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Eau de Parfum]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Unisex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.douglas.testcases.searchTest@291f18]" started-at="2024-07-31T18:10:23 IST" name="tearDown" finished-at="2024-07-31T18:10:23 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.douglas.testcases.searchTest -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- Suite -->
+</testng-results>
